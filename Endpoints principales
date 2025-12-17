@@ -1,0 +1,8 @@
+Endpoints principales:
+
+POST /products:
+Carga productos en la base semántica.
+
+POST /ask:
+Recibe una consulta de cliente y devuelve una respuesta estilo WhatsApp,
+basada exclusivamente en los productos cargados.
