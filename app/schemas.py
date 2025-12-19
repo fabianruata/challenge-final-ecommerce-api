@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field
+from typing import Optional, List
 
 class ProductInput(BaseModel):
     codigo: str = Field(..., description="Código único del producto")
@@ -6,7 +7,6 @@ class ProductInput(BaseModel):
     descripcion: str
     caracteristicas: str
     precio_venta: float
-
 
 class CustomerQuestion(BaseModel):
     telefono: str
