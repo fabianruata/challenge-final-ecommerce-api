@@ -1,3 +1,12 @@
+This project is a technical challenge developed for Pi Consulting. It features a RAG-based API that automates product recommendations and sales for a home appliance catalog.
+
+Key Features:
+Data Processing: Catalog cleaning and vectorization.
+
+RAG Integration: Intelligent retrieval of product information based on user intent.
+
+Scalability: Built with modular Python code for industrial environments.
+
 # Challenge Final – Ecommerce WhatsApp API
 
 API desarrollada con FastAPI que simula un vendedor de ecommerce
